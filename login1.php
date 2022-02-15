@@ -6,8 +6,8 @@
                 echo "Prihlasil si sa";
             }
             else{
-                header('Location: login.php');
                 echo "Zadal si nespravne meno alebo heslo";
+                header('Location: login.php');
             }
         ?>
     </body>
